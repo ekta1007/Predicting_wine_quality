@@ -230,11 +230,11 @@ def plot_ROC(df,y_test_predicted,y_test,labels,color):
 color = 'white' # 'white'/Red
 sampling_ratio=0.7
 if color=='red':
-    file_handle="D:/Desktop/AdNear/wine_red_binned2.txt"
-    file_handle_csv="D:/Desktop/AdNear/wine_red_binned2.csv"
+    file_handle="D:/Desktop/PROJECT_NAME/wine_red_binned2.txt"
+    file_handle_csv="D:/Desktop/PROJECT_NAME/wine_red_binned2.csv"
 elif color=='white':
-    file_handle="D:/Desktop/AdNear/wine_white_binned2.txt"
-    file_handle_csv="D:/Desktop/AdNear/wine_white_binned2.csv"
+    file_handle="D:/Desktop/PROJECT_NAME/wine_white_binned2.txt"
+    file_handle_csv="D:/Desktop/PROJECT_NAME/wine_white_binned2.csv"
 print "Initial parameters \n "
 print " Color : %s , Sampling Ratio  : %f , File handle : %s, Corresponding csv File handle : %s \n \n  " %(color,sampling_ratio,file_handle,file_handle_csv) # Init
 
